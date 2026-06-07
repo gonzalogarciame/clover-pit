@@ -63,10 +63,10 @@ The main slot symbols are ScriptableObject assets under `Assets/ScriptableObject
 
 | Symbol | Asset | Weight | Pay 3 | Pay 4 | Pay 5 |
 | --- | --- | ---: | ---: | ---: | ---: |
-| <img src="Assets/Sprites/cherries.png" width="48" alt="Cherry"> | Cherry | 30 | 10 | 25 | 80 |
-| <img src="Assets/Sprites/clover.png" width="48" alt="Clover"> | Clover | 20 | 15 | 40 | 120 |
-| <img src="Assets/Sprites/horseshoe.png" width="48" alt="Horseshoe"> | Horseshoe | 10 | 20 | 60 | 180 |
-| <img src="Assets/Sprites/Lucky7_rainbow.png" width="48" alt="Seven"> | Seven | 8 | 30 | 80 | 300 |
+| <img src="Assets/Art/Sprites/cherries.png" width="48" alt="Cherry"> | Cherry | 30 | 10 | 25 | 80 |
+| <img src="Assets/Art/Sprites/clover.png" width="48" alt="Clover"> | Clover | 20 | 15 | 40 | 120 |
+| <img src="Assets/Art/Sprites/horseshoe.png" width="48" alt="Horseshoe"> | Horseshoe | 10 | 20 | 60 | 180 |
+| <img src="Assets/Art/Sprites/Lucky7_rainbow.png" width="48" alt="Seven"> | Seven | 8 | 30 | 80 | 300 |
 
 The lower the weight, the rarer the symbol. Rarer symbols have higher payouts.
 
@@ -416,6 +416,9 @@ Clover-pit/
 |-- Assets/
 |   |-- Scenes/
 |   |   `-- MainScene.unity
+|   |-- Art/
+|   |   |-- Backgrounds/
+|   |   `-- Sprites/
 |   |-- Scripts/
 |   |   |-- AI/
 |   |   |-- CallSystem/
@@ -429,7 +432,6 @@ Clover-pit/
 |   |   |-- Items/
 |   |   `-- Symbols/
 |   |-- Prefabs/
-|   |-- Sprites/
 |   |-- Materials/
 |   |-- Audio/
 |   |-- TextMesh Pro/
@@ -447,6 +449,8 @@ Clover-pit/
 | Folder | Description |
 | --- | --- |
 | `Assets/Scenes` | Contains the playable scene. |
+| `Assets/Art/Backgrounds` | Background and environment image assets used by the scene. |
+| `Assets/Art/Sprites` | Main slot-machine symbol sprites. |
 | `Assets/Scripts/AI` | Adaptive difficulty, director logic, and ML-Agents hook. |
 | `Assets/Scripts/CallSystem` | Command pattern helpers for forcing or tuning outcomes. |
 | `Assets/Scripts/GameManager` | Money, run values, free spins, and UI manager. |
