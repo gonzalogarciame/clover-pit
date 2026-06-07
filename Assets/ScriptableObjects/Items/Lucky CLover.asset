@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f78169818a30323469892df217d649a8, type: 3}
+  m_Name: Lucky Clover
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  itemName: LuckyClover
+  description: IncreaseLuck (+0.3 por 5 giros)
+  price: 50
+  icon: {fileID: 21300000, guid: 7c25f9dee60b0204192d065fac7df8f3, type: 3}
+  effectType: 0
+  effectValue: 0.15
+  effectDuration: 5

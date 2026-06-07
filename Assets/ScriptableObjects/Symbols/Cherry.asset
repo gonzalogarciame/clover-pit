@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68251f0f2257c3d4680d76d1f1cbf817, type: 3}
+  m_Name: Cherry
+  m_EditorClassIdentifier: Assembly-CSharp::Symbol
+  id: cherry
+  sprite: {fileID: 8410757352683566047, guid: b269fbe187068b14ba650fa3e6584c21, type: 3}
+  weight: 30
+  pay3: 10
+  pay4: 25
+  pay5: 80
